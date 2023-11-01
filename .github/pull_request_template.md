@@ -8,7 +8,7 @@ merging and reviewing a lot faster for everybody.
 
 ## 🏷 Type of documentation
 <!-- Remove items that don't apply and/or select an item by changing [ ] to [x] -->
-- [ ] new bid adapter
+- [x] new bid adapter
 - [ ] update bid adapter
 - [ ] new feature
 - [ ] text edit only (wording, typos)
@@ -17,5 +17,5 @@ merging and reviewing a lot faster for everybody.
 
 ## 📋 Checklist
 <!-- Remove items that don't apply and/or select an item by changing [ ] to [x] -->
-- [ ] Related pull requests in prebid.js or server are linked -> Paste link in this list or reference it on the PR itself
-- [ ] For new adapters check [submitting your adapter docs](https://docs.prebid.org/dev-docs/bidder-adaptor.html#submitting-your-adapter)
+- [x] Related pull requests in prebid.js or server are linked -> {prebid.jsのPRリンクを貼る}
+- [x] For new adapters check [submitting your adapter docs](https://docs.prebid.org/dev-docs/bidder-adaptor.html#submitting-your-adapter)
