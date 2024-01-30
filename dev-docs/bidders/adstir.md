@@ -32,3 +32,15 @@ The adstir Bidding adapter requires setup before beginning. Please contact us at
 |-------|----------|---------------------------|----------|----------|
 | `appId` | required | The AppID from adstir | `'TEST-MEDIA'` | `string` |
 | `adSpaceNo` | required | The AdSpaceNo from adstir | `1` | `integer` |
+
+### Configuration
+
+This adapter uses browser storage (cookies / local storage). In order to optimize targeting and monetization, the activation of the access to storage by adstir Bidder Adapter is strongly recommended.
+
+```js
+pbjs.bidderSettings = {
+  adstir: {
+    storageAllowed: true
+  }
+};
+```
